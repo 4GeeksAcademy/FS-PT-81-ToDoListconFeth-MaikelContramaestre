@@ -88,7 +88,7 @@ export const ToDoList = () => {
             <div className="container">
                 <form onSubmit={handleSubmit}>
                     <h4>Agregar tareas</h4>
-                    <input className="boton" type="text" value={todo} onChange={e => setTodo(e.target.value)} />
+                    <input className="boton" type="text" placeholder="Agrega una tarea" value={todo} onChange={e => setTodo(e.target.value)} />
                     <button className="btn btn-secondary mb-1" >Agregar</button>
                 </form>
                 <div className="container fondo ">
