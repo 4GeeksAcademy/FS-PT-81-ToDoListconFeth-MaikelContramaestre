@@ -99,7 +99,7 @@ export const AsyncToDo = () => {
       </div>
       <div className="container fondo ">
             <ul>
-                {userData.todos?.map(elem => <li key={elem.id}>{elem.label} <span className="fa-solid fa-trash" onClick={() => handleDelete(elem.id)}> </span></li>)}
+                {userData?.todos?.map(elem => <li key={elem.id}>{elem.label} <span className="fa-solid fa-trash" onClick={() => handleDelete(elem.id)}> </span></li>)}
             </ul> 
       </div>
      

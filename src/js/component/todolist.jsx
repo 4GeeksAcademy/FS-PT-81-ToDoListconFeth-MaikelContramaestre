@@ -93,7 +93,7 @@ export const ToDoList = () => {
                 </form>
                 <div className="container fondo ">
                 <ul>
-                    {data.todos?.map(elem => (
+                    {data?.todos?.map(elem => (
                         <li key={elem.id}>
                             {elem.label}
                             <span className="fa-solid fa-trash" onClick={() => handleDelete(elem.id)}> </span>
